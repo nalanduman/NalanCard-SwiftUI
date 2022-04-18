@@ -11,6 +11,8 @@
 		3313901F280A19AD00BA7D66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313901E280A19AD00BA7D66 /* ContentView.swift */; };
 		33139021280A19AF00BA7D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33139020280A19AF00BA7D66 /* Assets.xcassets */; };
 		33139024280A19AF00BA7D66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33139023280A19AF00BA7D66 /* Preview Assets.xcassets */; };
+		33139035280D470900BA7D66 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33139034280D470900BA7D66 /* Pacifico-Regular.ttf */; };
+		33139037280D4EE400BA7D66 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33139036280D4EE400BA7D66 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		3313901E280A19AD00BA7D66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33139020280A19AF00BA7D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33139023280A19AF00BA7D66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33139031280D460C00BA7D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		33139034280D470900BA7D66 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		33139036280D4EE400BA7D66 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		3313901B280A19AD00BA7D66 /* NalanCard */ = {
 			isa = PBXGroup;
 			children = (
+				33139031280D460C00BA7D66 /* Info.plist */,
+				3313902A280A1C5800BA7D66 /* fonts */,
 				3313901C280A19AD00BA7D66 /* NalanCardApp.swift */,
 				3313901E280A19AD00BA7D66 /* ContentView.swift */,
+				33139036280D4EE400BA7D66 /* InfoView.swift */,
 				33139020280A19AF00BA7D66 /* Assets.xcassets */,
 				33139022280A19AF00BA7D66 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				33139023280A19AF00BA7D66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3313902A280A1C5800BA7D66 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				33139034280D470900BA7D66 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33139035280D470900BA7D66 /* Pacifico-Regular.ttf in Resources */,
 				33139024280A19AF00BA7D66 /* Preview Assets.xcassets in Resources */,
 				33139021280A19AF00BA7D66 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3313901F280A19AD00BA7D66 /* ContentView.swift in Sources */,
+				33139037280D4EE400BA7D66 /* InfoView.swift in Sources */,
 				3313901D280A19AD00BA7D66 /* NalanCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +287,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NalanCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NalanCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NalanCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NalanCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
